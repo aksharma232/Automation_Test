@@ -21,23 +21,21 @@ public class productOrderTest extends baseClassTest
 	orderPage op;
 	
 	@Test(dataProvider = "orderProductTestData", groups = {"purchase"})
-	public void orderproduct(String email,String password, String product) throws InterruptedException, IOException 
+	public void orderproduct(String email,String password, String productorder) throws InterruptedException, IOException 
 	{
-		//productcalalogPage pp = loginPage.loginApplication("notice2ajay@gmail.com", "Auto1234");		
-		ex_report.createTest("Purchase_Order");
 		productcalalogPage pp = loginPage.loginApplication(email, password);
-		pp.addProductCart(product);			
+		pp.addProductCart(productorder);			
 		cartPage cp = pp.goToCartPage();		
-		Assert.assertTrue(cp.verifyingCartProduct(product));		
+		Assert.assertTrue(cp.verifyingCartProduct(productorder));		
 		paymentPage paymentPage = cp.checkout();		
 		paymentPage.placeOrder("India");		
 		Assert.assertTrue(d.findElement(By.xpath("//*[@class=\"hero-primary\"]")).isDisplayed());
 		File src = ((TakesScreenshot)d).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File(".\\screenshot\\fullimage.jpg"));
-		ex_report.flush();
+		
 	}
 
-	//@Test(dependsOnMethods = {"orderproduct"})
+	@Test(dependsOnMethods = {"orderproduct"})
 	public void orderConfirmation() throws InterruptedException
 	{
 		productcalalogPage pp = loginPage.loginApplication("notice2ajay@gmail.com", "Auto1234");
@@ -47,7 +45,7 @@ public class productOrderTest extends baseClassTest
 		Assert.assertTrue(productmatch);
 	}
 
-//	@Test (dependsOnMethods = {"orderConfirmation"})
+	@Test (dependsOnMethods = {"orderConfirmation"})
 	public void deleteOrderProduct() throws InterruptedException
 	{
 		productcalalogPage pp = loginPage.loginApplication("notice2ajay@gmail.com", "Auto1234");
@@ -59,14 +57,16 @@ public class productOrderTest extends baseClassTest
 	@DataProvider
 	public Object[][] orderProductTestData()
 	{
-		Object[][] data = new Object[2][3];
+		Object[][] data = new Object[1][3];
 		data[0][0] = "notice2ajay@gmail.com";
 		data[0][1] = "Auto1234";
 		data[0][2]= "ADIDAS ORIGINAL";
 		
+		/*
 		data[1][0] = "notice2ajay@gmail.com";
 		data[1][1] = "Auto1234";
 		data[1][2] = "ZARA COAT 3";
+		*/
 		return data;
 	}
 	

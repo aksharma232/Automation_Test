@@ -6,7 +6,7 @@
       <class name="Selenium.AutomationTestcases.productOrderTest">
         <methods>
           <include name="tearDown"/>
-          <include name="orderproduct" invocation-numbers="1"/>
+          <include name="deleteOrderProduct"/>
           <include name="lauchApplication"/>
         </methods>
       </class> <!-- Selenium.AutomationTestcases.productOrderTest -->

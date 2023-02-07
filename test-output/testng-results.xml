@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-03T17:00:14 IST" name="Suite" finished-at="2023-02-03T17:02:25 IST" duration-ms="131609">
+  <suite started-at="2023-02-07T10:41:17 IST" name="Default suite" finished-at="2023-02-07T10:41:58 IST" duration-ms="41328">
     <groups>
       <group name="purchase">
         <method signature="productOrderTest.orderproduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" name="orderproduct" class="Selenium.AutomationTestcases.productOrderTest"/>
       </group> <!-- purchase -->
     </groups>
-    <test started-at="2023-02-03T17:00:14 IST" name="ProductOrder" finished-at="2023-02-03T17:00:42 IST" duration-ms="28221">
+    <test started-at="2023-02-07T10:41:17 IST" name="Default test" finished-at="2023-02-07T10:41:58 IST" duration-ms="41328">
       <class name="Selenium.AutomationTestcases.productOrderTest">
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-03T17:00:14 IST" name="lauchApplication" finished-at="2023-02-03T17:00:25 IST" duration-ms="11015" status="PASS">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:17 IST" name="lauchApplication" finished-at="2023-02-07T10:41:23 IST" duration-ms="6058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchApplication -->
-        <test-method signature="orderproduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-03T17:00:25 IST" name="orderproduct" data-provider="orderProductTestData" finished-at="2023-02-03T17:00:25 IST" duration-ms="206" status="FAIL">
+        <test-method signature="orderproduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:23 IST" name="orderproduct" data-provider="orderProductTestData" finished-at="2023-02-07T10:41:28 IST" duration-ms="4361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,241 +32,38 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at Selenium.AutomationTestcases.productOrderTest.orderproduct(productOrderTest.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-03T17:00:25 IST" name="tearDown" finished-at="2023-02-03T17:00:26 IST" duration-ms="1297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:28 IST" name="tearDown" finished-at="2023-02-07T10:41:32 IST" duration-ms="4054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-03T17:00:26 IST" name="lauchApplication" finished-at="2023-02-03T17:00:41 IST" duration-ms="14619" status="PASS">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:32 IST" name="lauchApplication" finished-at="2023-02-07T10:41:37 IST" duration-ms="5335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchApplication -->
-        <test-method signature="orderproduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-03T17:00:41 IST" name="orderproduct" data-provider="orderProductTestData" finished-at="2023-02-03T17:00:41 IST" duration-ms="3" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[notice2ajay@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Auto1234]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ZARA COAT 3]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at Selenium.AutomationTestcases.productOrderTest.orderproduct(productOrderTest.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="orderConfirmation()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:37 IST" name="orderConfirmation" finished-at="2023-02-07T10:41:43 IST" depends-on-methods="Selenium.AutomationTestcases.productOrderTest.orderproduct" duration-ms="5565" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderproduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-03T17:00:41 IST" name="tearDown" finished-at="2023-02-03T17:00:42 IST" duration-ms="1028" status="PASS">
+        </test-method> <!-- orderConfirmation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:43 IST" name="tearDown" finished-at="2023-02-07T10:41:47 IST" duration-ms="4063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:47 IST" name="lauchApplication" finished-at="2023-02-07T10:41:52 IST" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="deleteOrderProduct()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:52 IST" name="deleteOrderProduct" finished-at="2023-02-07T10:41:58 IST" depends-on-methods="Selenium.AutomationTestcases.productOrderTest.orderConfirmation" duration-ms="5541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrderProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.productOrderTest@765d7657]" started-at="2023-02-07T10:41:58 IST" name="tearDown" finished-at="2023-02-07T10:41:58 IST" duration-ms="781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Selenium.AutomationTestcases.productOrderTest -->
-    </test> <!-- ProductOrder -->
-    <test started-at="2023-02-03T17:00:42 IST" name="ErrorValidation" finished-at="2023-02-03T17:01:22 IST" duration-ms="39910">
-      <class name="Selenium.AutomationTestcases.errorValidationTest">
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.errorValidationTest@7a8c8dcf]" started-at="2023-02-03T17:00:42 IST" name="lauchApplication" finished-at="2023-02-03T17:00:55 IST" duration-ms="12502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchApplication -->
-        <test-method signature="loginFailed()[pri:0, instance:Selenium.AutomationTestcases.errorValidationTest@7a8c8dcf]" started-at="2023-02-03T17:00:55 IST" name="loginFailed" finished-at="2023-02-03T17:00:56 IST" duration-ms="801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFailed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.errorValidationTest@7a8c8dcf]" started-at="2023-02-03T17:00:56 IST" name="tearDown" finished-at="2023-02-03T17:00:58 IST" duration-ms="2047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.errorValidationTest@7a8c8dcf]" started-at="2023-02-03T17:00:58 IST" name="lauchApplication" finished-at="2023-02-03T17:01:09 IST" duration-ms="11357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchApplication -->
-        <test-method signature="productValidation()[pri:0, instance:Selenium.AutomationTestcases.errorValidationTest@7a8c8dcf]" started-at="2023-02-03T17:01:09 IST" name="productValidation" finished-at="2023-02-03T17:01:20 IST" duration-ms="10744" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.errorValidationTest@7a8c8dcf]" started-at="2023-02-03T17:01:20 IST" name="tearDown" finished-at="2023-02-03T17:01:22 IST" duration-ms="2455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Selenium.AutomationTestcases.errorValidationTest -->
-    </test> <!-- ErrorValidation -->
-    <test started-at="2023-02-03T17:01:22 IST" name="login_ErrorValidation" finished-at="2023-02-03T17:02:25 IST" duration-ms="63018">
-      <class name="Selenium.AutomationTestcases.login_logout_Test">
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:01:22 IST" name="lauchApplication" finished-at="2023-02-03T17:01:33 IST" duration-ms="10306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchApplication -->
-        <test-method signature="loginwithInvalidDataTest(java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:01:33 IST" name="loginwithInvalidDataTest" data-provider="invalidvalidlogindata" finished-at="2023-02-03T17:01:33 IST" duration-ms="280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[not2ice2ajay@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Auto1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginwithInvalidDataTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:01:33 IST" name="tearDown" finished-at="2023-02-03T17:01:35 IST" duration-ms="2041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:01:35 IST" name="lauchApplication" finished-at="2023-02-03T17:01:47 IST" duration-ms="12563" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchApplication -->
-        <test-method signature="loginwithInvalidDataTest(java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:01:47 IST" name="loginwithInvalidDataTest" data-provider="invalidvalidlogindata" finished-at="2023-02-03T17:01:49 IST" duration-ms="1354" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[notic2e2ajay@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Auto1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginwithInvalidDataTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:01:49 IST" name="tearDown" finished-at="2023-02-03T17:01:51 IST" duration-ms="2435" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:01:51 IST" name="lauchApplication" finished-at="2023-02-03T17:02:02 IST" duration-ms="11065" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchApplication -->
-        <test-method signature="loginwithValidTest(java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:02:02 IST" name="loginwithValidTest" data-provider="validlogindata" finished-at="2023-02-03T17:02:03 IST" duration-ms="791" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[notice2ajay@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Auto1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginwithValidTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:02:03 IST" name="tearDown" finished-at="2023-02-03T17:02:04 IST" duration-ms="1264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:02:04 IST" name="lauchApplication" finished-at="2023-02-03T17:02:17 IST" duration-ms="12982" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lauchApplication -->
-        <test-method signature="loginwithValidTest(java.lang.String,java.lang.String)[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:02:17 IST" name="loginwithValidTest" data-provider="validlogindata" finished-at="2023-02-03T17:02:19 IST" duration-ms="1824" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[notice2ajay@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Auto1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginwithValidTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.AutomationTestcases.login_logout_Test@510f3d34]" started-at="2023-02-03T17:02:19 IST" name="tearDown" finished-at="2023-02-03T17:02:25 IST" duration-ms="6104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Selenium.AutomationTestcases.login_logout_Test -->
-    </test> <!-- login_ErrorValidation -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
