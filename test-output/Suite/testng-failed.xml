@@ -9,7 +9,9 @@
       <class name="Selenium.AutomationTestcases.productOrderTest">
         <methods>
           <include name="tearDown"/>
-          <include name="orderproduct" invocation-numbers="0 1"/>
+          <include name="orderConfirmation"/>
+          <include name="orderproduct"/>
+          <include name="deleteOrderProduct"/>
           <include name="lauchApplication"/>
         </methods>
       </class> <!-- Selenium.AutomationTestcases.productOrderTest -->
