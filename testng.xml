@@ -18,6 +18,5 @@
       <class name="Selenium.AutomationTestcases.errorValidationTest"/>
     </classes>
   </test> <!-- Test -->
-  
- 
+   
  </suite> <!-- Suite -->
