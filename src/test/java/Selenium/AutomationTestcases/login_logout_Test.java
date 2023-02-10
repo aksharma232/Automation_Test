@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class login_logout_Test extends baseClassTest
+public class login_logout_Test extends baseClass
 {
 	@Test (dataProvider = "validlogindata")
 	public void loginwithValidTest(String email,String password) throws IOException

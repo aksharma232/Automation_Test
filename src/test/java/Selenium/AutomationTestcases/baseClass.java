@@ -17,7 +17,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import Selenium.AutomationPages.loginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class baseClassTest 
+public class baseClass 
 {
 	public WebDriver d;
 	loginPage loginPage;

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import Selenium.AutomationPages.cartPage;
 import Selenium.AutomationPages.productcalalogPage;
 
-public class errorValidationTest extends baseClassTest
+public class errorValidationTest extends baseClass
 {
 	@Test
 	public void loginFailed()

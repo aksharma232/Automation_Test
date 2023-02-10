@@ -15,7 +15,7 @@ import Selenium.AutomationPages.paymentPage;
 import Selenium.AutomationPages.productcalalogPage;
 
 
-public class productOrderTest extends baseClassTest
+public class productOrderTest extends baseClass
 {
 	String product = "ADIDAS ORIGINAL";
 	orderPage op;
